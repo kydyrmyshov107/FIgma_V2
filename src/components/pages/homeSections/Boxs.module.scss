@@ -1,0 +1,217 @@
+.Boxs {
+  padding: 40px;
+  @media (max-width: 400px) {
+    .Boxs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // padding: 20px;
+    }
+
+    .meta {
+      font-size: 22px;
+      // padding: 10px 20px;
+      // text-align: center;
+      margin-left: -60px;
+      max-width: 60%;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .cards {
+        // max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .card {
+          max-width: 400px;
+          width: 100%;
+
+          .title {
+            display: none;
+          }
+          p {
+            display: none;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        .cardTwo {
+          max-width: 390px;
+          width: 97%;
+          img {
+            max-width: 94%;
+            height: auto;
+          }
+          p {
+            display: none;
+          }
+        }
+      }
+
+      .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 7px;
+        .cart {
+          max-width: 400px;
+          width: 100%;
+          h1 {
+            display: none;
+          }
+          img {
+            max-width: 200%;
+            width: 140%;
+            margin-top: 20px;
+            margin-left: -53px;
+            height: auto;
+          }
+        }
+
+        .cartTwo {
+          max-width: 400px;
+          width: 100%;
+          .four {
+            max-width: 142%;
+            max-height: 200%;
+            height: 200px;
+            margin-left: -57px;
+          }
+          h1 {
+            // display: none;
+          }
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .meta {
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    // align-items: center;
+    .cards {
+      display: flex;
+      align-content: center;
+      gap: 20px;
+
+      .card {
+        // display: flex;
+        color: white;
+        .title {
+          color: rgb(255, 255, 255);
+          font-size: 40px;
+          font-weight: 400;
+          position: relative;
+          bottom: 220px;
+          left: 20px;
+        }
+        .text {
+          position: relative;
+          bottom: 200px;
+          left: 20px;
+          color: rgb(168, 168, 168);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 19px;
+        }
+        img {
+          max-width: 100%;
+          // width: 620px;
+          // height: 320px;
+        }
+      }
+      .cardTwo {
+        h1 {
+          color: rgb(255, 255, 255);
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 100%;
+          position: relative;
+          bottom: 200px;
+          left: 25px;
+        }
+        p {
+          position: relative;
+          bottom: 160px;
+          left: 30px;
+          color: rgb(168, 168, 168);
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+        img {
+          max-width: 103%;
+          // width: 690px;
+          // height: 320px;
+        }
+      }
+    }
+    .row {
+      display: flex;
+      gap: 18px;
+      .cart {
+        img {
+          position: relative;
+          bottom: 110px;
+        }
+        h1 {
+          color: rgb(255, 255, 255);
+          font-size: 48px;
+          font-weight: 500;
+          line-height: 100%;
+          position: relative;
+          bottom: 266px;
+          left: 97px;
+        }
+      }
+      .cartTwo {
+        img {
+          position: relative;
+          bottom: 110px;
+          max-width: 100%;
+          // width: 710px;
+          // height: 262px;
+        }
+        h1 {
+          position: relative;
+          bottom: 310px;
+          left: 20px;
+          color: rgb(255, 255, 255);
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 100%;
+        }
+        p {
+          position: relative;
+          bottom: 250px;
+          left: 30px;
+          color: rgb(168, 168, 168);
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.Rectangle {
+  @media (max-width: 400px) {
+    .content {
+      .main {
+        .keen_slider {
+          max-width: 100%;
+          width: 340px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    max-width: 1919px;
+    height: 100px;
+    // transform: rotate(-1deg);
+    background: rgb(255, 63, 98);
+    padding: 0;
+
+    .keen_slider {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+}
